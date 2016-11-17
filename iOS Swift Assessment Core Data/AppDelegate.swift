@@ -17,12 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        //////////////////////////////////
+        /////////////////////////////////////////
         ///
-        /// Write code here to create
+        /// Fetch data from your stack and
+        /// dump your library to the console
         ///
-        ///
-        //////////////////////////////////
+        /////////////////////////////////////////
+        
+        stack.fetchData()
+        
+        for book in stack.books {
+            print("\(book.title!) by \(book.author!.name!)")
+        }
         
         return true
     }
