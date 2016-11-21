@@ -13,7 +13,7 @@ Create an application that has no user interface, but prints to the console a li
   * Each book has a title.
   * Books have one author.
   * Authors can have more than one book.
-* In `CoreDataStack`, create a function named `generateTestData()`. This should insert the four following books and authors into Core Data:
+* In `CoreDataStack`, create a function named `generateTestData()`. This should insert the four following books and authors into Core Data. For the sake of this assesment, make the authors and add books to them, not the other way around.
   * *The Swift Programming Language* by Apple Inc.
   * *Hacking with Swift* by Paul Hudson
   * *Pro Swift* by Paul Hudson
